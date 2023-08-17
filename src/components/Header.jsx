@@ -17,8 +17,8 @@ const Header = (props) => {
             alt="logo"
           />
           <div>
-            <h3 className="text-uppercase">React Sneakers</h3>
-            <p>Магазин лучших кроссовок</p>
+            <h3 className="header-title text-uppercase">React Sneakers</h3>
+            <h4 className="header-subtitle">Магазин лучших кроссовок</h4>
           </div>
         </div>
       </Link>

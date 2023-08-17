@@ -31,7 +31,7 @@ const Home = ({
   };
   return (
     <div className="content p-40">
-      <div className="d-flex align-center justify-between mb-40">
+      <div className="content-flex d-flex align-center justify-between mb-40">
         <h1>Все кроссовки</h1>
         <div className="search-block d-flex">
           <img src="/img/icons/find.svg" alt="Search" />
@@ -54,7 +54,7 @@ const Home = ({
         </div>
       </div>
 
-      <div className="d-flex flex-wrap">{renderItems()}</div>
+      <div className="grid">{renderItems()}</div>
     </div>
   );
 };
